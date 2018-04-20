@@ -77,53 +77,12 @@ key: 167y3A7MS2X70
 
 
 ---
-## Test 1
-
-```yaml
-type: NormalExercise
-
-xp: NaN
-
-key: 238fab4426
-```
-
-some assignment text here
-
-`@instructions`
-generate a single random number in the range (0,1) and assign the result to the value x
-
-`@hint`
-no hints !!
-
-`@pre_exercise_code`
-```{undefined}
-'Woohoo'
-```
-`@sample_code`
-```{undefined}
-# and no sample code
-```
-`@solution`
-```{undefined}
-x <- runif(1)
-```
-`@sct`
-```{undefined}
-x < 1
-x > 0
-```
-
-
-
-
-
----
 ## test 1
 
 ```yaml
 type: NormalExercise
 
-xp: 
+xp: NaN
 
 key: 83259338a7
 ```
@@ -147,7 +106,7 @@ library(forecast)
 ```
 `@solution`
 ```{}
- x <- 100
+x <- 100
 ```
 `@sct`
 ```{}
