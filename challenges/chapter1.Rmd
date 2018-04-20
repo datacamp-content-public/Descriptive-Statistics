@@ -10,7 +10,7 @@ description: >-
 ```yaml
 type: MultipleChoiceChallenge
 
-xp: undefined
+xp: NaN
 
 key: 167A4VcDii9Ku
 ```
@@ -34,7 +34,7 @@ key: 167A4VcDii9Ku
 ```yaml
 type: OutputChallenge
 
-xp: undefined
+xp: NaN
 
 key: 167oSz8A19yBt
 ```
@@ -58,7 +58,7 @@ key: 167oSz8A19yBt
 ```yaml
 type: BlanksChallenge
 
-xp: undefined
+xp: NaN
 
 key: 167y3A7MS2X70
 ```
@@ -82,7 +82,7 @@ key: 167y3A7MS2X70
 ```yaml
 type: NormalExercise
 
-xp: 
+xp: NaN
 
 key: 238fab4426
 ```
@@ -96,22 +96,62 @@ generate a single random number in the range (0,1) and assign the result to the 
 no hints !!
 
 `@pre_exercise_code`
-```{}
+```{undefined}
 'Woohoo'
 ```
 `@sample_code`
-```{}
+```{undefined}
 # and no sample code
 ```
 `@solution`
-```{}
+```{undefined}
 x <- runif(1)
 ```
 `@sct`
-```{}
+```{undefined}
 x < 1
 x > 0
+```
 
+
+
+
+
+---
+## test 1
+
+```yaml
+type: NormalExercise
+
+xp: 
+
+key: 83259338a7
+```
+
+you have stuff to do
+
+`@instructions`
+here be instructions
+
+`@hint`
+no hints !!
+
+`@pre_exercise_code`
+```{}
+# try to load the forcast package
+library(forecast)
+```
+`@sample_code`
+```{}
+# no sample code provided
+```
+`@solution`
+```{}
+ x <- 100
+```
+`@sct`
+```{}
+x = 100
 ```
 
 
